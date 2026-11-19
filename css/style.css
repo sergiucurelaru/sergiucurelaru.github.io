@@ -1,0 +1,92 @@
+/* Neon Castle festival - my css */
+
+body {
+  background-color: #10131f;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* colors: dark blue #10131f, cyan #00e5ff, gold #f5c542 */
+
+.navbar {
+  background-color: #090b13;
+  border-bottom: 2px solid #00e5ff;
+}
+
+.navbar-brand {
+  color: #00e5ff !important;
+  font-weight: bold;
+}
+
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+  filter: brightness(55%);
+}
+
+h2 {
+  color: #f5c542;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btn-neon {
+  background-color: #00e5ff;
+  color: #10131f;
+  font-weight: bold;
+}
+
+.btn-neon:hover {
+  background-color: #f5c542;
+}
+
+.card {
+  background-color: #1c2033;
+  color: white;
+}
+
+.card img {
+  height: 220px;
+  object-fit: cover;
+}
+
+.feature-icon {
+  font-size: 45px;
+  color: #00e5ff;
+}
+
+.testimonial {
+  background-color: #1c2033;
+  padding: 20px;
+  border-left: 4px solid #f5c542;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.title-big {
+  font-size: 60px;
+  color: red;
+}
+
+footer {
+  background-color: #090b13;
+  border-top: 2px solid #00e5ff;
+  padding-top: 30px;
+}
+
+footer a {
+  color: white;
+  font-size: 26px;
+  margin-right: 12px;
+}
+
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 320px;
+  }
+}
